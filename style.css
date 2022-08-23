@@ -1,14 +1,68 @@
-.herotext {
-    
+.headertitle {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8
+}
+.herosecond { 
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
 }
 
 
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
 
 
-.footer {
-    box-sizing: border-box;
+.bodypics {
+    text-align: center;
+}
+
+.infotext {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.herocontain, .footer {
     background-color: #1f2937;
     color: white;
+}
+
+.action {
+    color: #3882f6;
+    background-color: #3882f6;
+
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 25px;
+    padding: 6px;
+    height: 30px;
+    width: 70px;
+}
+.footer {
+    box-sizing: border-box;
     margin: 0;
     padding: 10px;
 }
