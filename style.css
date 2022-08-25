@@ -1,11 +1,15 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.5;
-
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    
 }
 .herocontain {
     display: flex;
     flex-direction: column;
+    max-width: auto;
 }
 
 .herosecondheader {
@@ -48,13 +52,14 @@ body {
 .herosecond { 
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 15px;
 
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 a {
@@ -66,25 +71,24 @@ a {
 ul {
     list-style: none;
     text-decoration: none;
-    
 }
 
 
 .picmid {
-    width: 150px;
+    width: 220px;
     height: 150px;
     object-fit: cover;
+    display: flex;
 }
 
 
-.bodypics {
-    text-align: center;
 
-}
 .picsep {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    gap: 20px;
 }
 
 .infotext {
@@ -94,17 +98,45 @@ ul {
     display: flex;
     justify-content: center;
 }
+
+
 .herocontain, .footer {
     background-color: #1f2937;
     color: white;
+    width: auto;
+}
+
+.directions {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.actionmain {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 150px;
+    align-items: center;
+    justify-content: center;
 }
 
 .action {
     color: #e5e7eb;
     background-color: #3882f6;
-
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    padding: 15px 150px;
+    width: 500px;
 }
 
+.actionsub {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    align-self: center;
+}
 button {
     background-color: #3882f6;
     color: #e5e7eb;
@@ -113,10 +145,18 @@ button {
     height: 30px;
     width: 70px;
 }
+
 .footer {
     box-sizing: border-box;
     margin: 0;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.author {
+   font-size: 30px;
+   font-weight: 800;
 }
 
 .quote {
@@ -124,4 +164,11 @@ button {
     font-size: 36px;
     font-style: light italic;
     color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
 }
+
